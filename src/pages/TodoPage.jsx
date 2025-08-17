@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import TodoList from '../components/TodoList';
 import NewTodoForm from '../components/NewTodoForm';
 import GlassCard from '../components/ui/GlassCard';
-import { useTodos } from '../utils/todoStore';
+import  useTodos  from '../utils/todoStore';
 
 const TodoPage = () => {
   const { todos, completedCount, totalCount } = useTodos();
