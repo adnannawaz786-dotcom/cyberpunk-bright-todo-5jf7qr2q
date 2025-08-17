@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Plus, Zap } from 'lucide-react';
 import GlassCard from './ui/GlassCard';
-import { useTodos } from '../utils/todoStore';
+import  useTodos  from '../utils/todoStore';
 
 const NewTodoForm = () => {
   const [text, setText] = useState('');
