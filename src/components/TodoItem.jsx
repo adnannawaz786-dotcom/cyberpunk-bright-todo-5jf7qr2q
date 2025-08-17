@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Check, X, Edit3, Trash2 } from 'lucide-react';
-import { GlassCard } from './ui/GlassCard';
+import  GlassCard  from './ui/GlassCard';
 
 const TodoItem = ({ 
   todo, 
